@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SearchEngineWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SearchEngineWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SearchEngineWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SearchEngineWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/commons-codec-1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/commons-logging-1.1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/fluent-hc-4.3.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/httpclient-4.3.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/httpclient-cache-4.3.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/httpcore-4.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/httpmime-4.3.5.jar" />
+          <element id="library" level="project" name="htmlparser" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/htmllexer.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/SearchEngineWeb/web/WEB-INF/lib/htmlparser.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
